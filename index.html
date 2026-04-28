@@ -1,14 +1,38 @@
-<html>
+:root{
+    --color-pink: rgb(255, 224, 229);
+    --border-pink: rgb(251, 161, 176);
+    --shadow-purple: rgba(86, 15, 86, 0.2);
+}
 
-  <head>
-      <link rel="icon" type="image/jpeg" href="silksong-favicon.png">
-  </head>
-  
-  <body>
-    <header>
-      <h1>Welcome to My Dashboard</h1>
-      <p>Select an app to view:</p>
-    </header>
-  
-  </body>
-</html>
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size:40px;
+    color:rgb(255, 92, 17);
+}
+
+.button-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 7%;
+    height: 100px;
+    margin: 5%;
+}
+
+button{
+    width: 30%;
+    height: 75%;
+    background-color: var(--color-pink);
+    border-color: var(--border-pink);
+    border-radius: 15%;
+    box-shadow: 4px 4px 8px var(--shadow-purple); /* hor offset, vert offset, blur, color + opacity*/
+}
+
+
+@media (max-width: 600px) {
+  button {
+    width: 100%;   /* full width on small screens */
+  }
+}
