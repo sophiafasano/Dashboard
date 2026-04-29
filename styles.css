@@ -15,6 +15,7 @@ body{
   background: url("hk2.png");
   min-height: 100vh;   /* fill entire screen */
   overflow: hidden; /* hides scrollbars */
+  background-size: cover;
 }
 
 img {
