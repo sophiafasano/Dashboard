@@ -17,6 +17,11 @@ body{
   overflow: hidden; /* hides scrollbars */
 }
 
+img {
+  max-width: 100%;  /* Limits the width to 100% of the parent container */
+  height: auto;     /* Keeps the aspect ratio intact */
+}
+
 h1{
 
   
