@@ -3,7 +3,7 @@
     --border-pink: rgb(10, 94, 77);
     --shadow-purple: rgba(56, 8, 56, 0.5);
 
-    --color-hover: rgb(162, 216, 184);
+    --color-hover: rgb(162, 216, 189);
 }
 
 html, body{
@@ -25,13 +25,17 @@ img {
 }
 
 h1{
-
-  
     font-family: "Uncial Antiqua", serif;
-
+    font-style: italic;
+    font-size: 2.3rem;
+    
+    margin-top: 5%; 
     text-align: center;
 
-    color:rgb(68, 202, 108);
+    background: linear-gradient(180deg, rgb(4, 156, 146), rgb(3, 78, 10));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
 }
 
 .button-container
@@ -43,16 +47,17 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
 
-    gap: 3%;
-    row-gap: 15%;
+    gap: 12px;
+    row-gap: 20px;
 
     height: 100px;
-    margin: 5%;
+    margin: 10px;
 }
 
 button{
-    width: 15%;
-    height: 75%;
+    width: 300px;
+    height: 100px;
+    padding: 12px;
 
     font-family: "Uncial Antiqua", serif;
 
@@ -69,15 +74,21 @@ button:hover{
 }
 
 @media (max-width: 600px) {
+
+  .button-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
   button {
     width: 100%;   /* full width on small screens */
   }
+
   body {
     background: url("hk2mobile.png") no-repeat center center;
   }
   
 }
-
 
 @media (max-width: 900px){
   body {
