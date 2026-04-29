@@ -72,6 +72,10 @@ button:hover{
   button {
     width: 100%;   /* full width on small screens */
   }
+  body {
+    background: url("hk2mobile.png") no-repeat center center;
+  }
+  
 }
 
 
