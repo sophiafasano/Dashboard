@@ -12,7 +12,7 @@ html, body{
 }
 
 body{
-  background: url("shadow.png") no-repeat center center;
+  background: url("hk2.png") no-repeat center center;
   min-height: 100vh;   /* fill entire screen */
   overflow: hidden; /* hides scrollbars */
   background-size: 100% 100%;;
