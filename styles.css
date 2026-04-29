@@ -1,6 +1,6 @@
 :root{
     --color-pink: rgb(188, 254, 241);
-    --border-pink: rgb(10, 94, 77);
+    --border-pink: rgb(5, 62, 51);
     --shadow-purple: rgba(56, 8, 56, 0.5);
 
     --color-hover: rgb(162, 216, 189);
@@ -55,7 +55,7 @@ h1{
 }
 
 button{
-    width: 300px;
+    width: 250px;
     height: 100px;
     padding: 12px;
 
@@ -90,7 +90,7 @@ button:hover{
   
 }
 
-@media (max-width: 900px){
+@media (min-width: 601px) and (max-width: 900px){
   body {
      background: url("hk2.png");
   }
