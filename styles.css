@@ -73,3 +73,10 @@ button:hover{
     width: 100%;   /* full width on small screens */
   }
 }
+
+
+@media (max-width: 900px){
+  body {
+     background: url("hk2.png");
+  }
+}
