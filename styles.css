@@ -28,14 +28,14 @@ header {
   z-index: 2;
 }
 
-footer {
+/* footer {
   height: 10px;
   width: 100%;
 
   background: var(--color-bars);
 
   margin-top: auto;
-}
+} */
 
 body{
   min-height: 100vh;
