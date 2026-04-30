@@ -98,6 +98,11 @@ button:hover{
 
   body {
     background-size: cover;
+    
+  }
+
+  body::before{
+    background: url("hkmobile.png")  no-repeat center center;
   }
   
 }
